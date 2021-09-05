@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* G L O B A L S */
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    letter-spacing: 1px;
+    font-family: 'Questrial';
+    background-color: #eaece1;
+}
+section {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+/* N A V  B A R */
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    background-color: #eaece1;
+}
+#logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 56px;
+}
+nav ul {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav a {
+    color: black;
+    font-size: 24px;
+    margin: 15px;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff612c;
+    font-weight: bold;
+}
+
+/* H E A D E R */
+header {
+    height: 100vh;
+}
+#leftHeader {
+    float: left;
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    width: 44%;
+    text-align: center;
+}
+#welcomeText {
+    font-size: 60px;
+    
+}
+#welcomeParagraph {
+    margin-top: 2%;
+    font-size: 22px;
+    line-height: 26px;
+}
+#headerBtn {
+    margin-top: 6%;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #4a54f3;
+    padding: 15px 50px;
+    border: 0px;
+}
+#headerBtn:hover {
+    background-color: #ff612c;    
+}
+#headerImage {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    width: 850px;
+    height: 850px;
+    float: right;
+}
+
+
+/* A B O U T */
+
+#about {
+    background-color: #415263;
+}
